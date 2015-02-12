@@ -1,0 +1,25 @@
+
+
+ESCUELA COLOMBIANA DE INGENIERÍA
+ARQUITECTURAS DE SOFTWARE - ARSW
+Prof. Héctor Cadavid R.
+
+EJERCICIO
+
+
+1. Analice el código del proyecto e identifique qué es lo que se simula en el
+mismo.
+2. Ejecute el programa y verifique las salidas. Las mismas son consistentes?
+3. Modifique el código de manera que el número de hilos que simulan transferencias
+ahora sea 100.
+4. Ejecute el programa varias veces y verifique la salida.Los resultados de la 
+simulación son consistentes?, si no, por qué?
+5. Haga los ajustes que considere necesarios para que la clase Account sea
+'thread-safe'.
+6. Dependiendo de su solución, se pueden obtener tres nuevos resultados:
+    a. El programa sigue teniendo una condición de carrera.
+    b. El programa se bloquea.
+    c. El programa funciona consistentemente.
+   Si se dan los casos (a) o (b), analice cual puede ser el problema. Para
+   el caso de (b), use los comandos jps y jstack para revisar el estado
+   de los hilos.
